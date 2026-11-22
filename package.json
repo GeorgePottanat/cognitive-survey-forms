@@ -1,0 +1,12 @@
+{
+  "name": "cognitive-survey-forms",
+  "version": "1.0.0",
+  "description": "Browser-only data entry for informant and CDR assessment forms, with print, PDF and email output. Nothing is stored.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/engine.test.js",
+    "serve": "python3 -m http.server 8000",
+    "e2e": "python3 tests/e2e.py http://127.0.0.1:8000/"
+  }
+}
